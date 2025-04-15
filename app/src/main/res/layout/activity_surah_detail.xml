@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#7A33D0"
     android:padding="12dp">
 
     <TextView
@@ -12,6 +13,7 @@
         android:layout_height="wrap_content"
         android:text="Surah Name"
         android:textSize="20sp"
+        android:background="#7A33D0"
         android:textStyle="bold"
         android:paddingBottom="8dp"/>
 
@@ -26,5 +28,6 @@
         android:id="@+id/rvAyat"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:background="@drawable/bg2"
         android:layout_weight="1"/>
 </LinearLayout>
